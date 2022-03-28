@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import Balance from "../Balance";
+//import Shortcuts from "../Shortcuts";
 import RankingOperations from '../RankingOperations';
 
 const HomeLoggedIn = ({user}) => {

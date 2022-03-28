@@ -14,7 +14,7 @@ const RankingOperations = () => {
 
     return (
         <Fragment>
-            <h6 className='h6-last-operations'>Últimas operaciones:</h6>
+            <h6 className='h6-last-operations'>Lastest operations:</h6>
             {typeof ranking.data != "undefined" ?
             <ul className="list-group list-group-flush">
                 {typeof ranking.data != "undefined" ?

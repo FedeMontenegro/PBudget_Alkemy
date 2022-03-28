@@ -11,7 +11,8 @@ const {
     getOneOperation,
     createRegistreOperation,
     updateRegistreOperation,
-    destroyRegistreOperation
+    destroyRegistreOperation,
+    listOperationByCategory
 } = require("../../controllers/APIs/apiOperationController");
 
 router.post("/", readAllOperations);
@@ -21,6 +22,7 @@ router.put("/:id/edit", updateOperation);
 router.delete("/:id/destroy", deleteOperation);
 router.post("/ranking/:id", getRankingOperations);
 router.post("/:id", getOneOperation);
+router.post("/filterByCategory/:id", listOperationByCategory);
 
 router.post("/registres/new", createRegistreOperation);
 router.put("/registres/:op/edit", updateRegistreOperation);

@@ -154,7 +154,7 @@ export const useSession = () => {
                     default:
                         localStorage.removeItem("pbst")
                         sessionStorage.removeItem("pbst")
-                        alert(userData.msg)
+                        //alert(userData.msg)
                         res = {
                             status: userData.status,
                             session: false

@@ -1,0 +1,21 @@
+.section-shortcuts {
+    border: solid 2px white;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 30px 10%;
+}
+
+.div-shortcuts {
+    border: solid 1px white;
+    border-radius: 3px;
+    color: white;
+    margin: 10px 25px 5px;
+    text-align: center;
+}
+
+@media(min-width:768px){
+    .section-shortcuts {
+        margin: 30px 5%;
+    }
+}

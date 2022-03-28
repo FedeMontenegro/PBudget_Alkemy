@@ -172,7 +172,6 @@ module.exports = {
     },
     readOperationsByUser: (req, res) => {
 
-        console.log("READOPERATIONBYUSER")
         Operation.findAll({
             where: {
                 user_id: req.body.id
@@ -242,8 +241,7 @@ module.exports = {
             .catch(err => res.json(err))
     },
     updateOperation: (req, res) => {
-        console.log("UPDATEOPERATION")
-        console.log(req.body)
+        
         const {
             name,
             type,
@@ -291,7 +289,6 @@ module.exports = {
             })
     },
     deleteOperation: (req, res) => {
-        console.log("DELETEOPERATION")
         //Eliminando operacion
         Operation
             .destroy({
@@ -372,6 +369,7 @@ module.exports = {
     getOneOperation: (req, res) => {
         Operation.findByPk(+req.params.id)
             .then(confirm => {
+                
                 if (confirm) {
                     response = {
                         meta: {
@@ -396,5 +394,37 @@ module.exports = {
                 res.json(response)
             })
             .catch(err => res.json(err))
+    },
+    listOperationByCategory: (req, res) => {
+        Operation.findAll({
+            where: {
+                id: +req.params.id,
+                operation_category_id : req.body.category
+            }
+        })
+        .then(confirm => {
+            if (confirm) {
+                response = {
+                    meta: {
+                        status: 200,
+                        total: confirm.length,
+                        url: "http://localhost:3001/api/operations/filterByCategory/" + req.params.id,
+                        msg: "Operation successfully"
+                    },
+                    data: confirm
+                }
+            } else {
+                response = {
+                    meta: {
+                        status: 500,
+                        total: confirm.length,
+                        url: "http://localhost:3001/api/operations/filterByCategory/" + req.params.id,
+                        msg: "An error occurred."
+                    },
+                    data: confirm
+                }
+            }
+            res.json(response)
+        })
     }
 }
