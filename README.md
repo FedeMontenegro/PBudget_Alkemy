@@ -1,8 +1,8 @@
 # PBudget
----
 
 ## Descripción: 
-PBudget es una aplicación web para gestionar el presupuesto personal. En ella, se pueden agregar las operaciones que se quieran registrar, pudiendo organizar
+PBudget es una aplicación web para gestionar el presupuesto personal. En ella, 
+se pueden agregar las operaciones que se quieran registrar, pudiendo organizar
 las mismas por concepto, categorias, tipo de operacion, monto y fecha de creación.
 Las categorías deben ser creadas por el usuario, pudiendo así categorizar las operaciones
 por las que resulten pertinentes y además pudiendo agregar de manera ilimitada
@@ -12,13 +12,11 @@ con las mismas opciones. Se puede observar el balance actual, resultante de los 
 distintas operaciones realizadas. Además, es posible crearse una cuenta personal en el sitio,
 en la que guardar todos los registros que se vayan realizando en la plataforma.
 
----
-
 ## Desarrollo:
 
 La aplicación ha sido desarrollada empleando buenas prácticas del Modelo Vista Controlador.
 
-**user**: Desarrollado con React.js y vanilla JavaScript.
+**user**: Desarrollado con React.js y vanilla JavaScript. Estilos trabajados con Css puro y Bootstrap.
 **server**: Desarrollado con Node.js, Express, Sequelize para la interacción con la base de datos y
 vanilla JavaScript.
 **Base de datos**: La misma es del tipo relacional, desarrollada con el motor de bases de datos MySql.
@@ -40,3 +38,21 @@ Según el caso, quizá sea necesario instalar el programa "xaamp" y levantar los
 
 
 Si el proceso fué llevado a cabo exitosamente, ya se estará listo para probar la aplicación.
+
+---
+
+### Tareas completadas
+
+- Home, con el balance actual, mas el ranking de operaciones.
+- ABM de Operaciones.
+- Listado de operaciones ordenadas según su tipo (ingreso, egreso).
+- Posibilidad de crear, editar y eliminar categorías, para organizar las operaciones.
+- Inicio de sesión y registro de usuario.
+- Base de datos, con su Diagrama Entidad Relación.
+- Diseño responsive.
+- APIs necesarias para la interacción con la base de datos.
+
+### Tareas pendientes
+
+- Posibilidad de listar las operaciones por categoría.
+- Commits declarativos y atomizados.
