@@ -1,0 +1,16 @@
+.form-category-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    width: 80%;
+}
+
+.h6-new-category {
+    color: white;
+    margin: 20px auto 0;
+    width: 80%;
+}
+
+.form-control {
+    margin-right: 10px;
+}

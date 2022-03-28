@@ -1,0 +1,37 @@
+.form-container {
+    border-radius: 5px;
+    margin: 50px auto;
+    max-width: 500px;
+    width: 80%;
+}
+
+.h2-login {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    color: white;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+    justify-content: space-between;
+    text-align: center;
+    width: 80%;
+}
+
+.form-check-label {
+    color: white;
+}
+
+.register-link {
+    margin-top: 10px;
+} 
+
+.sm-errors {
+    color: red;
+}

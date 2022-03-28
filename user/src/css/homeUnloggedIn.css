@@ -1,0 +1,45 @@
+.logo-container-home-unlogged-in {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 40px 20%;
+}
+
+.logo-home-unlogged-in {
+    text-align: center;
+    width: 200px;
+}
+
+.cards-home-unlogged-in {
+    margin: 0;
+    width: 100%;
+}
+
+.card-container-home-unlogged-in {
+    margin: 0 auto;
+}
+
+.card-home-unlogged-in {
+    background-color: black;
+    border: solid 1px white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 rgba(255, 255, 255, 1);
+    color: white;
+    margin: 10px;
+    /* min-height: 170px; */
+    z-index: 0;
+}
+
+.card-body {
+    z-index: 0;
+}
+
+@media(min-width: 1000px){
+    .logo-container-home-unlogged-in {
+        margin: 60px 20%;
+    }
+
+    .cards-home-unlogged-in {
+        margin-bottom: 90px;
+    }
+}

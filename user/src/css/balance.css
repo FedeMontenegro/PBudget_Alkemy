@@ -1,0 +1,47 @@
+.h6-balance {
+    color: white;
+}
+
+.display-1 {
+    color: white;
+    font-size: 38px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.balance-container {
+    border: solid white;
+    border-radius: 240px;
+    box-shadow: 0 0 12px 0 rgba(255, 255, 255, 1);
+    height: 175px;
+    margin: 30px auto;
+    padding-top: 50px;
+    text-align: center;
+    width: 175px;
+}
+
+@media(min-width:768px) {
+    .balance-container {
+        height: 200px;
+        width: 200px;
+    }
+
+    .display-1 {
+        font-size: 41px;
+    }
+}
+@media(min-width:1000px) {
+    .balance-container {
+        border: solid 2px gainsboro;
+        border-radius: 120px;
+        height: 240px;
+        margin: 30px auto;
+        padding-top: 50px;
+        text-align: center;
+        width: 240px;
+    }
+
+    .display-1 {
+        font-size: 70px;
+    }
+}

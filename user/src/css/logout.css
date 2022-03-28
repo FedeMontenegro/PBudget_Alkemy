@@ -1,0 +1,13 @@
+.logout-container {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.logout-count-p {
+    font-size: 54px;
+}
+
+.btn-logout {
+    margin-top: 30px;
+}

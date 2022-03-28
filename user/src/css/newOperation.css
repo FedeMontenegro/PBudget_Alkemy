@@ -1,0 +1,19 @@
+.h3-new-operation {
+    color: white;
+    text-align: center;
+    margin: 30px auto 10px;
+}
+
+.form-new-operation-container {
+    margin: 20px auto;
+    max-width: 500px;
+    width: 80%;
+}
+
+.form-label {
+    margin: 10px auto;
+}
+
+.btn-submit-new-operation {
+    margin: 20px auto 80px;
+}

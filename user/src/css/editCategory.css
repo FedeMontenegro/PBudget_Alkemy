@@ -1,0 +1,19 @@
+.modal-toggle {
+    display : "block";
+}
+
+.h3-edit-category {
+    color: white;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.form-edit-category-container {
+    margin: 10px auto;
+    max-width: 500px;
+    width: 80%;
+}
+
+.btn-confirm-edit-category {
+    margin: 30px auto;
+}

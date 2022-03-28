@@ -1,0 +1,144 @@
+/* .dropdown-menu {
+    height: 150px;
+    width: 100px;
+    border: solid 1px gainsboro;
+    position: absolute;
+    top: 48px;
+}
+
+
+.burguer-nav {
+    background-color: white;
+    border: solid 1px gainsboro;
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 56px;
+    width: 70%;
+    z-index: 1;
+}
+
+ */
+
+.header {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100px;
+}
+
+.logo-header {
+    color: white;
+    margin: 35px 25px;
+    width: 90px;
+
+}
+
+.fa-ellipsis-h {
+    color: white;
+    font-size: 23px;
+    position: absolute;
+    top: 40px;
+    right: 30px;
+}
+
+.nav-ellipsis-header {
+    background-color: black;
+    display: none;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    width: 85%;
+}
+
+.menu-list-header {
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1;
+}
+
+.nav-link {
+    color: white;
+}
+.nav-link:hover {
+    color: gainsboro;
+}
+
+.nav-desktop-header {
+    display: none;
+}
+
+@media(min-width: 768px){
+    .fa-ellipsis-h {
+        display: none;
+    }
+
+    .nav-desktop-header {
+        display: block;
+        height: 100px;
+        position: absolute;
+        right: 50px;
+        top: 0;
+        width: 75%;
+    }
+
+    .dropdown-menu-desktop-header {
+        background-color: rgba(0, 0, 0, 0.5);
+        display: none;
+        height: 150px;
+        list-style: none;
+        padding: 5px 0;
+        position: absolute;
+        width: 192px;
+    }
+    
+    .navbar-nav-desktop-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        list-style: none;
+        margin: 35px auto;
+        padding: 0 30px;
+    }
+
+    .nav-link-desktop-header {
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    .nav-link-desktop-header:hover {
+        color: gainsboro;
+    }
+
+    .dropdown-item-desktop-header {
+        padding: 5px 0 5px 10px;
+        width: 100%;
+    }
+
+    .dropdown-item-desktop-header:hover {
+        background-color: gainsboro;
+        color: black;
+        width: 100%;
+    }
+
+    .dropdown-link-desktop-header {
+        color: white;
+        text-decoration: none;
+        width: 100%;
+    }
+
+    .menu-list-header {
+        display: none;
+    }
+}
+
+@media(min-width: 1000px){
+    .logo-header {
+        margin: 35px;
+        width: 90px;
+    }
+}
+
+.toggle-dropdown-menu {
+    display: block;
+}
