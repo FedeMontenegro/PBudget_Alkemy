@@ -1,16 +1,16 @@
 .h6-last-operations {
     color: white;
-    margin: 60px auto 0;
+    margin: 60px auto 10px;
     width: 90%;
 }
 
 .list-group-flush {
-    margin: 0 auto 20px;
+    margin: 0 auto 100px;
     width: 85%;
 }
 
 .list-group-item {
-    background-color: black;
+    background-color: transparent;
     border-bottom: solid 1px gainsboro;
     color: white;
     list-style: none;
@@ -23,6 +23,6 @@
 
 .empty-msg-ranking-p {
     color: white;
-    margin: 20px auto;
+    margin: 30px auto;
     text-align: center;
 }

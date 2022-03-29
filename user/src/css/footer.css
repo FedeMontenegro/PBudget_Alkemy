@@ -1,15 +1,12 @@
 .footer {
     background-color: black;
+    bottom: 0;
     color: white;
-    margin: 60px auto 0;
     padding: 20px;
-    text-align: center; 
+    text-align: center;
+    position: absolute;
     width: 100%;
 }
 
 @media(min-width: 1000px){
-    /* .footer {
-        bottom: 0;
-        position: absolute;
-    } */
 }

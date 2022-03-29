@@ -2,20 +2,69 @@
     border: solid 2px white;
     border-radius: 5px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: 30px 10%;
-}
-
-.div-shortcuts {
-    border: solid 1px white;
-    border-radius: 3px;
-    color: white;
-    margin: 10px 25px 5px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr 1fr 0.5fr;
+    grid-template-areas: 
+    "operations-shortcut new-operation-shortcut"
+    "small-operations-shortcut small-new-operation-shortcut"
+    "categories-shortcut new-category-shortcut"
+    "small-categories-shortcut small-new-category-shortcut";
+    margin: 50px auto;
+    height: 200px;
+    padding: 10px;
+    width: 200px;
     text-align: center;
 }
 
+#operations-shortcut {
+    grid-area: operations-shortcut;
+}
+#small-operations-shortcut {
+    grid-area: small-operations-shortcut;
+}
+
+#new-operation-shortcut {
+    grid-area: new-operation-shortcut;
+}
+
+#small-new-operation-shortcut {
+    grid-area: small-new-operation-shortcut;
+}
+
+#categories-shortcut {
+    grid-area: categories-shortcut;
+}
+
+#small-categories-shortcut {
+    grid-area: small-categories-shortcut;
+}
+
+#new-category-shortcut {
+    grid-area: new-category-shortcut;
+}
+
+#small-new-category-shortcut {
+    grid-area: small-new-category-shortcut;
+}
+
+.div-shortcuts {
+    align-items: center;
+    border: solid 1px white;
+    border-radius: 3px;
+    color: white;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    height: 40px;
+    margin: 10px auto;
+    width: 40px;
+}
+
+.small-shortcuts {
+    color: white;
+    font-size: 12px;
+    margin: 0 auto;
+}
+
 @media(min-width:768px){
-    .section-shortcuts {
-        margin: 30px 5%;
-    }
 }

@@ -22,7 +22,7 @@ const MyOperations = () => {
     }
 
     return (
-        <Fragment>
+        <section className="section-my-operations">
             <h2 className='h2-my-operations'>My Operations</h2>
             {operations?.data?.length != 0 ?
                 <table className="table table-bordered border-light table-operations">
@@ -61,7 +61,7 @@ const MyOperations = () => {
                     <i className="fas fa-plus"></i>
                 </button>
             </Link>
-        </Fragment>
+        </section>
     )
 }
 

@@ -12,9 +12,10 @@
 }
 
 .more-container {
-    bottom: 10vh;
+    bottom: 20vh;
     position: fixed;
     right: 10vw;
+    z-index: 1;
 }
 
 .btn-table {
@@ -27,4 +28,8 @@
     color: white;
     margin: 50px auto;
     text-align: center;
+}
+
+.section-my-operations {
+    flex: 1;
 }

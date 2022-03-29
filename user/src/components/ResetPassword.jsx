@@ -5,7 +5,6 @@ import Header from "./header/Header";
 const ResetPassword = () => {
     return (
         <Fragment>
-            < Header />
             <h3 className='h3-reset-password'>Reset Password</h3>
             <form action="">
                 <div className='reset-password-container'>

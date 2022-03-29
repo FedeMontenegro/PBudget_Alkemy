@@ -11,15 +11,15 @@
 .balance-container {
     border: 0 0 1px 0 solid white;
     height: auto;
-    margin: 30px 20%;
-    padding-top: 50px;
+    margin: 30px 20%;/* 
+    padding-top: 50px; */
     text-align: center;
     width: auto;
 }
 
 @media(min-width:768px) {
     .balance-container {
-        margin: 30px 20% 200px;
+        margin: 30px 20%;
     }
 
     .display-1 {
